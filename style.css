@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: serif;
 }
 
 .topbg {
@@ -13,7 +14,6 @@
     align-items: center;
     justify-content: center;
     flex-flow: column;
-
 }
 
 .logo {
@@ -37,4 +37,110 @@ i {
     font-size: 50px;
     margin-top: 50px;
     color: brown;
+}
+
+.meio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstText {
+    margin: 15px auto 15px auto;
+    padding: 50px;
+}
+.firstText h2 {
+    padding: 15px;
+    font-weight: 200;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.firstText div {
+    border: brown 3px solid;
+    width: 50px;
+    margin: auto;
+}
+
+.firstText h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+.firstImage {
+    width: 100%;
+    height: 60vh;
+    background: url(./imagens/primeiracomida.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.secondText {
+    margin: 15px auto 15px auto;
+    padding: 50px;
+}
+.secondText h2 {
+    padding: 15px;
+    font-weight: 200;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.secondText div {
+    border: brown 3px solid;
+    width: 50px;
+    margin: auto;
+}
+
+.secondText h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+.secondImage {
+    width: 100%;
+    height: 60vh;
+    background: url(./imagens/segundacomida.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.thirdImage {
+    width: 100%;
+    height: 60vh;
+    background: url(./imagens/terceiracomida.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.bottomBG {
+    width: 100%;
+    height: 80vh;
+    background: url(./imagens/sushimen.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rodape .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 15px;
+    list-style: none;
+    margin-bottom: 15px;
 }
